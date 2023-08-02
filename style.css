@@ -27,7 +27,7 @@ main {
     border-radius: 20px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.212);
 }
-h1  {
+h1 {
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -35,14 +35,15 @@ h1  {
     
 }
 
-h2{
+h2 {
     color: white;
     margin-bottom: 30px;
 }   
 
-h3{
+h3 {
     color: white;
 }
+
 .leftSide {
     width: 50%;
     height: 100%;
@@ -61,7 +62,7 @@ h3{
     color: black;
 }
 
- p {
+p {
     color: white;
     text-align: center;
     display: flex;
@@ -69,7 +70,7 @@ h3{
     
    
 }
-h4{
+h4 {
     font-size: 12px;
     color: rgb(107, 104, 104);
     justify-content: center;
@@ -78,30 +79,23 @@ h4{
 }
 
 
-.circle  {
+.circle {
     font-size: 30px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(rgba(0, 0, 0, 0.300), hsla(256, 72%, 46%, 1));
     justify-content: center;
-   align-items:  baseline;
-   position: relative;
-  
-  
-
-
+    align-items:  baseline;
+    position: relative;
 }
-.numerocirc  {
+
+.numerocirc {
     display: flex;
     text-align: justify;
     position: absolute;
     transform: translate(50,50);
-    
-    
 }
-
-
 
 button {
     width: 250px;
@@ -112,82 +106,74 @@ button {
     cursor: pointer;
     font-weight: 600;
     position: absolute;
-
-    
 }
 
-button{
+button {
     position: absolute;
     bottom: 115px;
     margin-left: 20px;
 }
+
 button:hover {
     background: linear-gradient(0deg, hsla(256, 72%, 46%, 1),rgb(126, 31, 214));
 }
 
-.summary{
+.summary {
     margin: 45px;
     font-size: 20px ;
     margin-left: 25px;
 }
+
 .para {
     padding: auto;
     color: black;
-  margin-bottom: 60px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: right;
 }
 
 li {
     padding-left: 60px;
-    
-    
-    
- 
 }
-.list1{ 
+
+.list1 { 
     list-style-image: url(assets/images/icon-reaction.svg);
-    background:;
     padding: 15px;
     border-radius: 8px;
     margin-left: 45px;
-
 }
 
-.list2{
+.list2 {
     list-style-image: url(assets/images/icon-memory.svg);
-    background:   ;
     padding: 15px;
-    
-    margin-left: 45px;
-}
-.list3{
-    list-style-image: url(assets/images/icon-verbal.svg);
-    background:;
-    padding: 15px;
-    
     margin-left: 45px;
 }
 
-.list4{
+.list3 {
+    list-style-image: url(assets/images/icon-verbal.svg);
+    padding: 15px;
+    margin-left: 45px;
+}
+
+.list4 {
     list-style-image: url(assets/images/icon-visual.svg);
     background-color:linear-gradient(90deg, hsl(0, 69%, 72%),hsl(8, 61%, 75%) );
     padding: 15px;
-    
     margin-left: 45px;
 }
-.reverse{
+.reverse {
    align-items: flex-end;
     justify-content: center;
     display: flex;
 }
-.border{
+
+.border {
     background-color: gray;
     border: 2 solid black;
     padding: 20px;
 }
 
-.dentro{
+.dentro {
     display: flex;
    font-size: 60px;
     text-align: center;
@@ -196,7 +182,8 @@ li {
     color: white;
     font-family: 'Righteous' ;
 }
-.dentroof{
+
+.dentroof {
     font-size: 10px;
     display: flex;
     justify-content: center ;
