@@ -60,8 +60,14 @@ button {
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
+    margin-left: 30px;
+    justify-content: end;
+    margin-top: 320px;
+    
+    
 }
 
 button:hover {
     background: linear-gradient(0deg, hsla(256, 72%, 46%, 1),rgb(126, 31, 214));
 }
+
