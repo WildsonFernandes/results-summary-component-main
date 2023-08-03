@@ -60,6 +60,10 @@ h3 {
     width: 50%;
     height: 100%;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 p {
@@ -105,13 +109,6 @@ button {
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
-    position: absolute;
-}
-
-button {
-    position: absolute;
-    bottom: 115px;
-    margin-left: 20px;
 }
 
 button:hover {
@@ -119,9 +116,9 @@ button:hover {
 }
 
 .summary {
-    margin: 45px;
     font-size: 20px ;
-    margin-left: 25px;
+    width: 100%;
+    padding-left: 26px;
 }
 
 .para {
@@ -132,35 +129,34 @@ button:hover {
     justify-content: right;
 }
 
-li {
-    padding-left: 60px;
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
 }
 
-.list1 { 
-    list-style-image: url(assets/images/icon-reaction.svg);
-    padding: 15px;
+.numerozinho {
+    color: grey;
+}
+
+.numerozinho > b {
+    color: black;
+}
+
+.elementosSumario {
+    display: flex;
+    background-color: rgb(219, 191, 191);
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 8px;
     border-radius: 8px;
-    margin-left: 45px;
+    padding: 8px;
 }
 
-.list2 {
-    list-style-image: url(assets/images/icon-memory.svg);
-    padding: 15px;
-    margin-left: 45px;
-}
-
-.list3 {
-    list-style-image: url(assets/images/icon-verbal.svg);
-    padding: 15px;
-    margin-left: 45px;
-}
-
-.list4 {
-    list-style-image: url(assets/images/icon-visual.svg);
-    background-color:linear-gradient(90deg, hsl(0, 69%, 72%),hsl(8, 61%, 75%) );
-    padding: 15px;
-    margin-left: 45px;
-}
 .reverse {
    align-items: flex-end;
     justify-content: center;
