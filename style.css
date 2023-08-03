@@ -156,6 +156,55 @@ button:hover {
     border-radius: 8px;
     padding: 8px;
 }
+.elementosSumario1{
+    background-color: rgb(223, 193, 193);
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+
+}
+.elementosSumario2{
+    display: flex;
+    background-color: rgb(217, 219, 207);
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+.elementosSumario3{
+    background-color: rgb(210, 224, 206);
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+}
+
+.elementosSumario4{
+    background-color: rgb(193, 191, 201);
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+
+}
 
 .reverse {
    align-items: flex-end;
